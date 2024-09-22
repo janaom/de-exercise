@@ -46,7 +46,7 @@ I'm using Terraform to create a GCS bucket, a VM instance, and a BigQuery datase
 
  ### ⚙️ Automating Data Pipelines with Airflow
 
-I'm using Airflow, running on a VM, as my orchestration tool. The workflow is scheduled to run every 10 minutes. The DAG file, `gcs_to_bigquery_dag`, incorporates an example SQL query that filters data where the latitude is between 29 and 31 degrees, the longitude is between -90 and -73 degrees, and the speed over ground (SOG) is greater than 0, loading the results into a new table.
+I'm using Airflow, running on a VM, as my orchestration tool. The workflow is scheduled to run every 10 minutes. The DAG file, [gcs_to_bigquery_dag](https://github.com/janaom/de-exercise/blob/main/gcs_to_bigquery_dag.py), incorporates an example SQL query that filters data where the latitude is between 29 and 31 degrees, the longitude is between -90 and -73 degrees, and the speed over ground (SOG) is greater than 0, loading the results into a new table.
 
 Tasks:
 

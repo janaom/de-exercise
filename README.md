@@ -68,6 +68,6 @@ BigQuery was selected as the data sink to meet the task requirements. Here's an 
 
 ![20240823_224651](https://github.com/user-attachments/assets/a1c72df9-0ea1-429b-a98e-d94656f01f04)
 
-For this solution please refer to my preject [GCP Data Engineering Project: Data Pipeline with Cloud Run Functions, Airflow and BigQuery ML](https://medium.com/google-cloud/%EF%B8%8Fgcp-data-engineering-project-data-pipeline-with-cloud-run-functions-airflow-and-bigquery-ml-5120ecbf161d)
+For a detailed explanation of this solution, please refer to my project [GCP Data Engineering Project: Data Pipeline with Cloud Run Functions, Airflow and BigQuery ML](https://medium.com/google-cloud/%EF%B8%8Fgcp-data-engineering-project-data-pipeline-with-cloud-run-functions-airflow-and-bigquery-ml-5120ecbf161d)
 
-This project demonstrates how to build a data pipeline on Google Cloud using an event-driven architecture, leveraging services like GCS, Cloud Run functions, and BigQuery. I used both VM and Composer options for managing Airflow, and utilized Logging and Monitoring services to track the pipeline’s health. 
+This project demonstrates how to build a data pipeline on Google Cloud using an event-driven architecture, leveraging services like GCS, Cloud Run functions, and BigQuery. I used both VM and Composer options for managing Airflow, and utilized Logging and Monitoring services to track the pipeline’s health. While this project used different data, it employed a similar but more complex logic.

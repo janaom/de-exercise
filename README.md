@@ -18,7 +18,7 @@ As an option you can use one of the listed environment:
 
 For this task, I'm using AIS data from the [National Oceanic and Atmospheric Administration](https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2024/index.html) because the file sizes align better with the task requirements. I used NYC taxi data in a previous project to demonstrate a [GCP Data Engineering ETL pipeline with Mage](https://github.com/janaom/GCP-DE-project-uber-etl-pipeline).
 
-Each CSV file contains there columns:
+Each CSV file contains these columns:
 
     - MMSI: Unique vessel identifier.
     - BaseDateTime: Timestamp of data reception.

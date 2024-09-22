@@ -16,7 +16,9 @@ As an option you can use one of the listed environment:
 
 # Solutions
 
-For this task, I'm using AIS data from the [National Oceanic and Atmospheric Administration](https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2024/index.html) because the file sizes align better with the task requirements. I downloaded and unzipped two files: AIS_2024_03_31 and AIS_2024_03_30. I used NYC taxi data in a previous project to demonstrate a [GCP Data Engineering ETL pipeline with Mage](https://github.com/janaom/GCP-DE-project-uber-etl-pipeline).
+I used NYC taxi data in a previous project to demonstrate a [GCP Data Engineering ETL pipeline with Mage](https://github.com/janaom/GCP-DE-project-uber-etl-pipeline). 
+
+For this task, I'm using AIS data from the [National Oceanic and Atmospheric Administration](https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2024/index.html) because the file sizes align better with the task requirements. I downloaded and unzipped two files: AIS_2024_03_31 and AIS_2024_03_30. 
 
 Each CSV file contains these columns:
 

@@ -51,7 +51,7 @@ MMSI,BaseDateTime,LAT,LON,SOG,COG,Heading,VesselName,IMO,CallSign,VesselType,Sta
 
  ### 🏗️ Infrastructure
 
-I'm using Terraform to create a GCS bucket, a VM instance, and a BigQuery dataset with tables. Terraform can also handle file uploads to the bucket, but it's more efficient for smaller files. Terraform files 'main.tf' and 'variables.tf' are added under the terraform directory.
+I'm using Terraform to create a GCS bucket, a VM instance, and a BigQuery dataset with tables. Terraform can also handle file uploads to the bucket, but it's more efficient for smaller files. Terraform files `main.tf` and `variables.tf` are added under the [terraform](https://github.com/janaom/de-exercise/tree/main/terraform) directory.
 
  ### ⚙️ Automating Data Pipelines with Airflow
 

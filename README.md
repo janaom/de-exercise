@@ -35,6 +35,15 @@ Each CSV file contains these columns:
     - Cargo: Type of cargo being transported.
     - TransceiverClass: Class of AIS transceiver used.
 
+Here is an example of the data:
+
+```python
+MMSI,BaseDateTime,LAT,LON,SOG,COG,Heading,VesselName,IMO,CallSign,VesselType,Status,Length,Width,Draft,Cargo,TransceiverClass
+367052120,2024-03-30T00:00:01,29.55064,-90.40120,4.6,273.3,274.0,JAMES L OBERSTAR,,WDC6154,31,12,117,34,3.3,57,A
+368119660,2024-03-30T00:00:02,40.90033,-73.92876,0.1,70.0,4.0,CHARLESTON,IMO1292926,WDL3238,57,12,138,20,4.6,52,A
+366563000,2024-03-30T00:00:03,21.31198,-157.87790,0.0,228.3,127.0,MAHIMAHI,IMO7907996,WHRN,70,0,262,32,10.6,70,A
+367589290,2024-03-30T00:00:01,29.84541,-91.85664,0.0,254.0,511.0,PROVIDER,,WDG9586,31,12,120,33,3.3,57,A
+```
 
  ## First solution
 

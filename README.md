@@ -49,7 +49,7 @@ MMSI,BaseDateTime,LAT,LON,SOG,COG,Heading,VesselName,IMO,CallSign,VesselType,Sta
 
  ## First solution
 
-![Screenshot (2130)](https://github.com/user-attachments/assets/b8deda39-a6b5-4887-b813-dbeed7865bec)
+![Screenshot (2132)](https://github.com/user-attachments/assets/f44680c3-b852-4f3e-b58f-bb7f18b790e8)
 
  ### 🏗️ Infrastructure
 
